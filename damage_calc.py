@@ -36,7 +36,6 @@ def main():
                     continue
 
                 damage_per_minute = (final_dmg * 60) / seconds_per_hit
-
                 os.system("cls")
                 print(Fore.CYAN + "Final Damage: " + Fore.YELLOW + f"{final_dmg:,.2f}")
                 print(Fore.CYAN + "Damage per Minute: " + Fore.YELLOW + f"{damage_per_minute:,.2f}")
