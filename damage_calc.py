@@ -16,9 +16,10 @@ def main():
         if choice == "1":
             os.system("cls")
             print("Choose a class:")
-            print("[1] Bishop")
-            print("[2] Dark Knight")
-            print("[3] Swan")
+            print("[1] Assassin")
+            print("[2] Bishop")
+            print("[3] Dark Knight")
+            print("[4] Swan")
             class_choice = input("Enter your choice: ")
 
             try:
